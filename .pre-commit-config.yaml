@@ -1,6 +1,6 @@
 repos:
 - repo: /Users/kxue/temp/post-merge-hooks
-  rev: v0.1.0
+  rev: v0.1.1
   hooks:
     - id: shell-cmd-on-change
       args: ["--paths", "poetry.lock", "pyproject.toml", "--command", "poetry install"]
