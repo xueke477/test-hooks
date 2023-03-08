@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-hooks"
-version = "0.1.1"
+version = "0.1.2"
 description = "Test post-merge hooks"
 authors = ["Ke Xue <xueke.kent@gmail.com>"]
 readme = "README.md"
@@ -8,7 +8,7 @@ packages = [{include = "test_hooks"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pytz = "*"
+pytz = "< 2022.7.1"
 
 
 [build-system]
