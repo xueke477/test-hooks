@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-hooks"
-version = "0.1.0"
+version = "0.1.1"
 description = "Test post-merge hooks"
 authors = ["Ke Xue <xueke.kent@gmail.com>"]
 readme = "README.md"
